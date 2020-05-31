@@ -24,12 +24,14 @@ export const Subtitle = styled.h2`
 
 export const TopVector = styled.img`
   position: absolute;
+  z-index: -1;
   left: 0;
   top: 0;
 `;
 
 export const BottomVector = styled.img`
   position: absolute;
+  z-index: -1;
   bottom: 0;
   right: 0;
 `;
