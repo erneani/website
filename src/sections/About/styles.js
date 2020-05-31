@@ -4,14 +4,14 @@ import { colors, ranges, fonts } from "../../mainStyles";
 export const Container = styled.section`
   flex-direction: row;
   display: flex;
-  padding: ${ranges.large} ${ranges.overwhelmingLarge};
+  padding: ${ranges.overwhelmingLarge} ${ranges.overwhelmingLarge};
 `;
 
 export const TopImage = styled.img`
   position: absolute;
   z-index: -1;
   right: 0;
-  margin-top: calc(-${ranges.large} - 1px);
+  margin-top: calc(-${ranges.overwhelmingLarge} - 1px);
 `;
 
 export const Content = styled.article``;
