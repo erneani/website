@@ -30,6 +30,7 @@ export const dimensions = {
 export const ranges = {
   extraSmall: "0.25rem",
   small: "0.5rem",
+  smaller: "0.75rem",
   regular: "1rem",
   large: "1.5rem",
   extraLarge: "2rem",
@@ -51,12 +52,16 @@ export const borders = {
   rounded: "50px",
 };
 
+export const shadows = {
+  vertical: `0px 0px 30px rgba(78, 78, 78, 0.2)`,
+};
+
 // Components
 export const CallToAction = styled.button`
   background-color: ${colors.primary};
   border-radius: ${borders.rounded};
   transition: ${Timing.small};
-  padding: ${ranges.small} ${ranges.overwhelmingLarge};
+  padding: ${ranges.smaller} ${ranges.overwhelmingLarge};
   border: 1px solid ${colors.primary};
   color: ${colors.white};
 
