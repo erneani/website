@@ -4,6 +4,7 @@ import styled from "styled-components";
 export const fonts = {
   sizes: {
     small: "12px",
+    smaller: "14px",
     regular: "16px",
     medium: "18px",
     large: "24px",
@@ -54,6 +55,7 @@ export const borders = {
 
 export const shadows = {
   vertical: `0px 0px 30px rgba(78, 78, 78, 0.2)`,
+  card: `5px 5px 30px rgba(78, 78, 78, 0.2)`,
 };
 
 // Components
@@ -75,3 +77,7 @@ export const Texts = {
     color: ${colors.primary};
   `,
 };
+
+export const WordBreak = styled.br`
+  margin-bottom: ${ranges.regular};
+`;
