@@ -7,6 +7,7 @@ import {
   Text,
   AboutImage,
 } from "./styles";
+import { Texts, WordBreak } from "../../mainStyles";
 import Vector3 from "../../assets/imgs/vector3.svg";
 import CodeThinking from "../../assets/imgs/code_thinking.svg";
 
@@ -18,7 +19,13 @@ const About = () => {
         <Title>Sobre mim</Title>
         <Text>
           Desenvolvedor de Software especialista em Interfaces, sou apaixonado
-          por Frontend, UX Design e desafios.
+          por <Texts.Primary>Frontend</Texts.Primary>,{" "}
+          <Texts.Primary>UX Design</Texts.Primary> e desafios.
+          <WordBreak />
+          Atualmente utilizo <Texts.Primary>Javascript</Texts.Primary> na
+          construção da maior parte de minhas aplicações, mas também tenho
+          proficiência em <Texts.Primary>Python</Texts.Primary> e{" "}
+          <Texts.Primary>PHP</Texts.Primary>.
         </Text>
       </Content>
       <AboutImage
