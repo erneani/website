@@ -24,6 +24,7 @@ export const Title = styled.h3`
 
 export const Text = styled.p`
   font-size: ${fonts.sizes.large};
+  max-width: 600px;
   color: ${colors.black};
 `;
 
