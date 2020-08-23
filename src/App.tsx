@@ -1,25 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Divider } from "@material-ui/core";
+import { Colors } from "styles";
+
+import Header from "sections/Header";
+import Showcase from "sections/Showcase";
+import About from "sections/About";
+import Education from "sections/Education";
+import Contact from "sections/Contact";
+import Footer from "sections/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Showcase />
+      <About />
+      <Divider style={{ borderColor: Colors.primary }} />
+      <Education />
+      <Contact />
+      <Footer />
+    </>
   );
 }
 
