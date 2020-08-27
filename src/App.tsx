@@ -6,6 +6,7 @@ import Header from "sections/Header";
 import Showcase from "sections/Showcase";
 import About from "sections/About";
 import Education from "sections/Education";
+import Experiences from "sections/Experiences";
 import Contact from "sections/Contact";
 import Footer from "sections/Footer";
 
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Divider style={{ borderColor: Colors.primary }} />
       <Education />
+      <Experiences />
       <Contact />
       <Footer />
     </>
