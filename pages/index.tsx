@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Showcase from '../components/sections/showcase';
 import AboutMe from '../components/sections/about-me';
 import WorkExperiences from '../components/sections/work-experiences';
-import Footer from '../components/sections/footer/footer';
+import Footer from '../components/sections/footer';
 
 export default function Home() {
   return (
