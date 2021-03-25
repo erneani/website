@@ -22,7 +22,7 @@ export default function Showcase(): JSX.Element {
   }
 
   return (
-    <div className="container flex p-36 flex-col justify-center w-screen h-screen bg-white dark:bg-black">
+    <div className="container mx-auto flex p-20 flex-col justify-center h-screen bg-white dark:bg-black">
       <div className="max-w-lg">
         <h1 className="text-black dark:text-white font-sans font-bold md:text-4xl lg:text-6xl">
           Developer, but <span className="text-pink-500">not a regular</span>{' '}
