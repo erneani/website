@@ -18,6 +18,7 @@ The fixes (and features) are:
 - [] Projects Section (I am involded in a lot of stuff, and you will know it)
 - [] Education Section, because I have some certifications that I am proud of
 - [] Responsive design (it will be easy to implement, but I need to think about some design aspects)
+- [] I will add my curriculum before I finish it with the new design :D
 
 ## Still here?
 
