@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Showcase from '../components/sections/showcase';
 import AboutMe from '../components/sections/about-me';
 import WorkExperiences from '../components/sections/work-experiences';
+import ContactMe from '../components/sections/contact-me';
 import Footer from '../components/sections/footer';
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <Showcase />
       <AboutMe />
       <WorkExperiences />
+      <ContactMe />
       <Footer />
     </div>
   );
