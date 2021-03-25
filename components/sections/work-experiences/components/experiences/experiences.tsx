@@ -11,7 +11,7 @@ export default function Experiences() {
       id: 0,
     },
     {
-      imagePath: '',
+      imagePath: 'imdufrn.svg',
       jobTitle: 'Front End Developer',
       company: 'IMD/UFRN',
       initialDate: 'Jun 2020',
@@ -19,7 +19,7 @@ export default function Experiences() {
       id: 1,
     },
     {
-      imagePath: '',
+      imagePath: 'sinfo.svg',
       jobTitle: 'Front End Developer',
       company: 'SINFO',
       initialDate: 'Mar 2020',
@@ -27,8 +27,8 @@ export default function Experiences() {
       id: 2,
     },
     {
-      imagePath: '',
-      jobTitle: 'Front End Developer',
+      imagePath: 'b2soft.svg',
+      jobTitle: 'Interface Developer',
       company: 'B2SOFT',
       initialDate: 'Mar 2019',
       endDate: 'Mar 2020',
