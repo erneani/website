@@ -12,7 +12,7 @@ export default function SectionTitle({
   aditionalStyles = '',
 }: ISectionTitle) {
   return (
-    <div className={aditionalStyles}>
+    <div className={`mb-20 ${aditionalStyles}`}>
       <span
         className={`text-5xl font-bold ${isDark ? 'text-black' : 'text-white'}`}
       >
