@@ -20,7 +20,7 @@ export default function Content() {
         </span>
         <div className="mt-10">
           <span className="text-xl xl:text-2xl">
-            I am involved in a lot of stuff, like:
+            I am involved in many things, such as:
           </span>
           <ul className="list-disc list-inside">
             {involvedStuff.map((stuff) => (
