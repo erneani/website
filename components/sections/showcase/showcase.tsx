@@ -22,14 +22,14 @@ export default function Showcase(): JSX.Element {
   }
 
   return (
-    <div className="container mx-auto flex p-20 flex-col justify-center h-screen bg-white dark:bg-black">
+    <div className="container mx-auto flex p-20 flex-col justify-center h-screen bg-black">
       <div className="max-w-lg">
-        <h1 className="text-black dark:text-white font-sans font-bold md:text-4xl lg:text-6xl">
+        <h1 className="text-white font-sans font-bold md:text-4xl lg:text-6xl">
           Developer, but <span className="text-pink-500">not a regular</span>{' '}
           one.
         </h1>
 
-        <p className="text-black dark:text-white font-sans mt-6 text-xl">
+        <p className="text-white font-sans mt-6 text-xl">
           Hello, I am <b>Vinícius Ernani</b>! A talented{' '}
           <b>Software Developer</b> that loves <b>User Interface Development</b>
           , <b>UX Design</b> and Coding Challenges.

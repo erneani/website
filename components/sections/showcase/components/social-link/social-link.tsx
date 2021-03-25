@@ -11,7 +11,7 @@ export default function SocialLink({ link, imagePath, alt }: ISocialLink) {
   return (
     <div className="pr-4">
       <a
-        className="text-black black:text-white w-18 h-18"
+        className="text-white w-18 h-18"
         href={link}
         rel="noreferrer"
         target="_blank"
