@@ -15,12 +15,12 @@ export default function Content() {
         <div className="w-1/2">
           <span className="block text-xl xl:text-2xl">
             With <strong>years of development experience</strong> and have
-            worked in a lot of projects, from <strong>landing pages</strong> to{' '}
+            worked on several projects, from <strong>landing pages</strong> to{' '}
             <strong>complex management dashboards</strong>, I am open to any
             challenge, using any technology.
           </span>
           <span className="block mt-10 text-xl xl:text-2xl">
-            Check my recent experiences down below.
+            Check my recent experiences below.
           </span>
         </div>
         <div className="w-1/2">
