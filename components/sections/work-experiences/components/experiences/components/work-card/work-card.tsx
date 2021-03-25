@@ -24,7 +24,7 @@ export default function WorkCard({
         alignToEnd ? 'self-end' : 'self-start'
       }`}
     >
-      <div className="flex flex-row">
+      <div className="flex flex-row items-center">
         <Image
           src={`/assets/companies/${imagePath}`}
           alt={`${company} trademark.`}
