@@ -11,7 +11,7 @@ export default function Content() {
   ];
 
   return (
-    <div className="flex flex-row items-center mt-20">
+    <div className="flex flex-row items-center">
       <div className="w-1/2">
         <span className="text-xl xl:text-2xl">
           <strong>Hi, call me Ernani!</strong> I am a curious Computer Science

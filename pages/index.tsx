@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Showcase from '../components/sections/showcase';
 import AboutMe from '../components/sections/about-me';
+import WorkExperiences from '../components/sections/work-experiences';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       </Head>
       <Showcase />
       <AboutMe />
+      <WorkExperiences />
     </div>
   );
 }
