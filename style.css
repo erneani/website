@@ -1,0 +1,97 @@
+:root {
+  --color-bg-main: #e5e5e5;
+  --color-primary: #4cc9f0;
+  --color-secondary: #10ffcb;
+  --color-highlight: #f75590;
+  --font-color: #000000;
+  --font-color-lighter: #645f67;
+  --font-color-constrast: #fbf5f3;
+  --font-color-hover: #18206f;
+  --font-family-primary: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana,
+    sans-serif;
+  --z-index-elementary: 1;
+  --z-index-regular: 10;
+  --z-index-above: 100;
+  --z-index-front: 99999;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--font-color);
+  background-color: var(--color-bg-main);
+  font-family: var(--font-family-primary);
+}
+
+.top-square {
+  top: 12rem;
+  right: 5rem;
+  z-index: var(--z-index-front);
+}
+
+.bottom-square {
+  bottom: 5rem;
+  left: 3rem;
+  z-index: var(--z-index-front);
+}
+
+.top-vector {
+  top: 0;
+  right: 0;
+}
+
+.bottom-vector {
+  bottom: 0;
+  left: 0;
+}
+
+.showcase nav {
+  padding-top: 2rem;
+}
+
+.showcase nav a {
+  color: var(--font-color);
+  text-decoration: none;
+}
+
+.showcase nav a ~ a {
+  padding-left: 1rem;
+}
+
+.showcase {
+  height: calc(100vh - 2 * 1.5rem);
+  width: calc(100vw - 2 * 7rem);
+  padding: 1.5rem 7rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.showcase header {
+  align-self: flex-start;
+  margin: auto 0 auto 0;
+}
+
+.showcase header h1 {
+  font-weight: 400;
+  font-size: 2.2rem;
+}
+
+.showcase header h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--font-color-lighter);
+}
+
+.text-highlight {
+  background-color: var(--color-highlight);
+  color: var(--font-color-constrast);
+  padding: 0 5px;
+}
+
+.text-contrast {
+  color: var(--font-color-hover);
+}
+
+.absolute {
+  position: absolute;
+}
