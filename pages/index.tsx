@@ -7,7 +7,7 @@ export default function Home() {
 
   useEffect(() => {
     router.push("/blog");
-  }, []);
+  }, [router]);
 
   return <LoadingContainer>Carregando...</LoadingContainer>;
 }
