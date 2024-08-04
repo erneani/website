@@ -1,0 +1,7 @@
+{% extends "base.html" %} {% block content %}
+<h1 class="title">Hello, welcome to my website!</h1>
+<p>
+  Check out some nice blog posts
+  <a href="{{ get_url(path='@/blog/_index.md') }}">here</a>.
+</p>
+{% endblock content %}
