@@ -1,7 +1,28 @@
-{% extends "base.html" %} {% block content %}
-<h1 class="title">Hello, welcome to my website!</h1>
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1 class="title">Hi, welcome to my blog!</h1>
+
 <p>
-  Check out some nice blog posts
-  <a href="{{ get_url(path='@/blog/_index.md') }}">here</a>.
+  I will work on this blog for the next few days as my main side project. If
+  you're looking for professional information, check my
+  <a href="https://viniciusernani.com" target="_blank" rel="noopener noreferrer"
+    >Digital Curriculum</a
+  >.
 </p>
+
+<h3>
+  Looking for some posts? 
+</h3>
+  
+<p>
+  I don't have one by now, but you can check the ideas
+  right below.
+</p>
+
+{% for page in section.pages %}
+  <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+{% endfor %}
+
 {% endblock content %}
